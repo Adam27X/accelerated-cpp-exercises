@@ -1,3 +1,5 @@
+//The question neglects to state whether the shapes should be "hollow" or "solid"
+//We create hollow shapes noting that converting the code to make solid shapes is straightforward
 #include <iostream>
 #include <string>
 
