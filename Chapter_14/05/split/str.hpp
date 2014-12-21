@@ -146,7 +146,8 @@ std::ostream& operator<<(std::ostream &os, const str &s)
 
 std::istream& getline(std::istream &is, str &s)
 {
-	s.data->clear();
+	//s.data->clear();
+	s.data = new vec<char>;
 	
 	char c;
 	while(is.get(c))
